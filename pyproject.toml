@@ -30,4 +30,4 @@ Homepage = "https://github.com/hussain-alsaibai/tiny-rate-limiter"
 "Bug Tracker" = "https://github.com/hussain-alsaibai/tiny-rate-limiter/issues"
 
 [tool.setuptools]
-py-modules = ["rate_limiter"]
+py-modules = ["tiny_rate_limiter"]
