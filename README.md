@@ -22,7 +22,8 @@ You need rate limiting. You don't need a 2,000-line package with five transitive
 ## Installation
 
 ```bash
-pip install tiny-rate-limiter
+# From GitHub (recommended -- not yet on PyPI)
+pip install git+https://github.com/hussain-alsaibai/tiny-rate-limiter.git
 ```
 
 Or just copy `rate_limiter.py` into your project. It's one file, no resources, no data files, no init hooks.
