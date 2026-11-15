@@ -8,6 +8,8 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-24.04
+    # ubuntu-latest moved to 26.04, which has no setup-python build of
+    # 3.8/3.9 - those matrix rows die before a test runs.
     strategy:
       fail-fast: false
       matrix:
